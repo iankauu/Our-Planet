@@ -6,3 +6,15 @@
     width: 100vw;
     z-index: -1;
 }
+.effect__container {
+    margin-top: 7rem;
+}
+.effect__container h1 {
+    font-size: 52px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.effect__container .effect__elements {
+    margin-top: 4rem;
+}
