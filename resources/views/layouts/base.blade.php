@@ -3,6 +3,7 @@
 
 <head>
     @include('includes.head')
+    <link rel="stylesheet" type="text/css" href="{{ url('css/layouts/base.css') }}">
 </head>
 
 <body>
