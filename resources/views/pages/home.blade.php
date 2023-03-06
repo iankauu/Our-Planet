@@ -1,6 +1,32 @@
 @extends('layouts.base')
 @section('content')
-<div>
-    <h2>Home page</h2>
+<div class="container-fluid">
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
+    <p>Home page</p>
 </div>
 @endsection

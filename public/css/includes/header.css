@@ -1,0 +1,52 @@
+.navbar {
+    background: transparent;
+    font-weight: bolder;
+    z-index: 10;
+}
+.navbar.black {
+    background-color: #171717;
+    transition: 0.8s ease-in-out;
+    border-bottom: 1px solid rgba(64, 64, 64, 0.3);
+}
+.navbar-brand {
+    font-size: 22px !important;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke !important;
+    margin-left: 2rem;
+}
+.main-nav {
+    margin-right: 2rem;
+}
+.main-nav .nav-item {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+}
+.nav-item a {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.nav-item a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    margin-top: 2px;
+    height: 2px;
+    width: auto;
+    border-radius: 15px;
+    background: transparent;
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+.nav-item a:hover:after {
+    width: auto;
+    background: white;
+}
+.nav-item a.active:after {
+    width: auto;
+    background: white;
+}
