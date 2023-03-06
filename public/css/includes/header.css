@@ -3,17 +3,25 @@
     font-weight: bolder;
     z-index: 10;
 }
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+}
+.navbar-brand span {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.navbar-brand img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
 .navbar.black {
     background-color: #171717;
     transition: 0.8s ease-in-out;
-    border-bottom: 1px solid rgba(64, 64, 64, 0.3);
-}
-.navbar-brand {
-    font-size: 22px !important;
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-    color: whitesmoke !important;
-    margin-left: 2rem;
 }
 .main-nav {
     margin-right: 2rem;
@@ -21,9 +29,9 @@
 .main-nav .nav-item {
     display: inline-block;
     padding: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
 }
 .nav-item a {

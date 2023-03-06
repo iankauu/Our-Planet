@@ -8,4 +8,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <link rel="stylesheet" type="text/css" href="{{ url('css/layouts/base.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ url('css/includes/header.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url('css/pages/home.css') }}">
 <title>Our Planet</title>
