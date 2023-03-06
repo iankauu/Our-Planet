@@ -10,7 +10,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Carbon Dioxide</h4>
+                        <h4 id="effect_element1">Carbon Dioxide</h4>
                         <i class="fa fa-arrow-up" aria-hidden="true"></i>
                         <span class="total__number">419</span>
                     </div>
@@ -19,7 +19,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Ocean Warming</h4>
+                        <h4 id="effect_element2">Ocean Warming</h4>
                         <i class="fa fa-arrow-up" aria-hidden="true"></i>
                         <span class="total__number">345</span>
                     </div>
@@ -28,7 +28,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h4>Carbon Dioxide</h4>
+                        <h4 id="effect_element3">Carbon Dioxide</h4>
                         <i class="fa fa-arrow-up" aria-hidden="true"></i>
                         <span class="total__number">419</span>
                     </div>

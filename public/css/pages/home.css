@@ -18,3 +18,30 @@
 .effect__container .effect__elements {
     margin-top: 4rem;
 }
+.effect__container .card {
+    height: auto;
+    background: transparent;
+    border-top: grey 1px solid;
+    border-radius: 0px;
+    transition: border-top-width 0.6s linear;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.effect__container .card:hover {
+    border-top-width: 3px;
+}
+.effect__container .card-body {
+    padding-left: 0 !important;
+}
+.effect__container .card  h4 {
+    font-size: 30px;
+    font-family: "Roboto" sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.effect__container .card i {
+    font-size: 42px !important;
+    font-family: "Roboto" sans-serif;
+    color: white !important;
+}
