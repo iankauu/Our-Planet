@@ -10,14 +10,28 @@
     gap: 0.5rem;
     margin-left: 2rem;
 }
+.navbar__brand__name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -5px;
+}
 .navbar-brand span {
     font-size: 22px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+.navbar-brand .tag__line {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: rgba(245, 245, 245, 0.8) !important;
+    text-transform: capitalize;
 }
 .navbar-brand img {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     object-fit: cover;
 }
 .navbar.black {

@@ -2,7 +2,10 @@
     <div class="container-fluid" style="margin: 0; padding: 0;">
         <a class="navbar-brand" href="/">
             <img src="{{ url('images/logo.png') }}" alt="logo">
-            <span>Our Planet</span>
+            <div class="navbar__brand__name">
+                <span>Our Planet</span>
+                <span class="tag__line">All about climate change</span>
+            </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
