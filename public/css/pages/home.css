@@ -1,47 +1,71 @@
-.climate-video {
+.home__container video {
     position: absolute;
-    right: 0;
+    top: 0;
     left: 0;
-    bottom: 0;
     width: 100vw;
     z-index: -1;
 }
 .effect__container {
-    margin-top: 7rem;
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .effect__container h1 {
-    font-size: 52px;
+    font-size: 48px;
     font-weight: bolder;
     font-family: "Roboto", sans-serif;
     color: white;
 }
 .effect__container .effect__elements {
     margin-top: 4rem;
+    
 }
 .effect__container .card {
     height: auto;
     background: transparent;
     border-top: grey 1px solid;
     border-radius: 0px;
-    transition: border-top-width 0.6s linear;
+    transition: border-top-width linear;
     border-left: none;
     border-right: none;
     border-bottom: none;
+    margin-bottom: 2.5rem;
 }
 .effect__container .card:hover {
-    border-top-width: 3px;
+    border-top-width: red 1px solid;
+    cursor: pointer;
 }
 .effect__container .card-body {
     padding-left: 0 !important;
 }
-.effect__container .card  h4 {
+.effect__container .card h4 {
     font-size: 30px;
     font-family: "Roboto" sans-serif;
     font-weight: bolder;
     color: white;
 }
+.effect__container .card:after {
+    display: block;
+    content: "";
+    border-top: grey 1px solid;
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+    transition: transform 250ms ease-in-out;
+}
 .effect__container .card i {
     font-size: 42px !important;
     font-family: "Roboto" sans-serif;
     color: white !important;
+}
+.effect__container .card span {
+    font-size: 54px;
+    font-family: "Roboto" sans-serif;
+    font-weight: bolder;
+    color: white;
 }
