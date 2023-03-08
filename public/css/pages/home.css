@@ -67,6 +67,9 @@
     border-bottom: none;
     margin-bottom: 1.5rem;
 }
+.effect__container .card:hover {
+    cursor: pointer;
+}
 .effect__container .card-body {
     padding-left: 0 !important;
 }
@@ -95,7 +98,8 @@
     align-items: center;
     gap: 2px;
 }
-.effect__container .card__elements, .card__stats i {
+.effect__container .card__elements,
+.card__stats i {
     font-size: 50px !important;
     font-weight: normal !important;
     color: white;
@@ -244,7 +248,7 @@
     color: #fff;
     text-transform: uppercase;
 }
-.climate__container .card p{
+.climate__container .card p {
     font-size: 32px;
     font-weight: bolder;
     color: #fff;
@@ -255,4 +259,26 @@
 }
 .climate__container .climate__singleCard {
     flex: 1;
+}
+.modal-dialog {
+    max-width: 85vw;
+    max-height: 3vh;
+}
+.modal-body p {
+    font-size: 12px;
+}
+.modal-header {
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.modal-header p {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.modal-footer {
+    background-color: white;
+    border: none;
+    outline: none;
 }

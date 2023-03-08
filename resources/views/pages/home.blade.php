@@ -8,7 +8,7 @@
             <div class="effect__elements">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card">
+                        <div class="card" data-toggle="modal" data-target="#image">
                             <div class="card-body">
                                 <h4 id="effect_element1">carbon dioxide</h4>
                                 <div class="card__elements">
@@ -182,6 +182,26 @@
                         </div>
                     </a>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="image" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="image" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="col">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h1>test</h1>
+                </div>
+                <div class="modal-footer "></div>
             </div>
         </div>
     </div>
