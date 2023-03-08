@@ -129,8 +129,31 @@
         </div>
     </div>
     <div class="climate__container">
-        <h1>What Is Climate Change?</h1>
-        <div class=""></div>
+        <div class="header">
+            <h1>What Is Climate Change?</h1>
+        </div>
+        <div class="climate__elements">
+            <div class="climate__cards">
+                <div class="row">
+                    <div class="col-md-6 nopadding">
+                        <div class="card" style="background-image: url('images/climate.png')">
+                        </div>
+                    </div>
+                    <div class="col-md-6 nopadding">
+                        <div class="card" style="background-image: url('images/climate.png')">
+                        </div>
+                    </div>
+                    <div class="col-md-6 nopadding">
+                        <div class="card" style="background-image: url('images/climate.png')">
+                        </div>
+                    </div>
+                    <div class="col-md-6 nopadding">
+                        <div class="card" style="background-image: url('images/climate.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 @endsection
