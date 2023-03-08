@@ -1,6 +1,6 @@
 @extends('layouts.base')
 @section('content')
-<div class="home__container">
+<div class="home__container container-fluid">
     <div class="slider__container">
         <video src="{{ url('images/climate-change.m4v') }}" autoplay loop muted></video>
         <div class="effect__container">
@@ -10,54 +10,84 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 id="effect_element3">cardbon Dioxide</h4>
-                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                                <span class="total__number">419</span>
+                                <h4 id="effect_element1">carbon dioxide</h4>
+                                <div class="card__elements">
+                                    <div class="card__stats">
+                                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                                        <span class="total__number">419</span>
+                                    </div>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 id="effect_element3">cardbon Dioxide</h4>
-                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                                <span class="total__number">419</span>
+                                <h4 id="effect_element1">carbon dioxide</h4>
+                                <div class="card__elements">
+                                    <div class="card__stats">
+                                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                                        <span class="total__number">419</span>
+                                    </div>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 id="effect_element3">cardbon Dioxide</h4>
-                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                                <span class="total__number">419</span>
+                                <h4 id="effect_element1">carbon dioxide</h4>
+                                <div class="card__elements">
+                                    <div class="card__stats">
+                                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                                        <span class="total__number">419</span>
+                                    </div>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 id="effect_element3">cardbon Dioxide</h4>
-                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                                <span class="total__number">419</span>
+                                <h4 id="effect_element1">carbon dioxide</h4>
+                                <div class="card__elements">
+                                    <div class="card__stats">
+                                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                                        <span class="total__number">419</span>
+                                    </div>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 id="effect_element3">cardbon Dioxide</h4>
-                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                                <span class="total__number">419</span>
+                                <h4 id="effect_element1">carbon dioxide</h4>
+                                <div class="card__elements">
+                                    <div class="card__stats">
+                                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                                        <span class="total__number">419</span>
+                                    </div>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 id="effect_element3">cardbon Dioxide</h4>
-                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                                <span class="total__number">419</span>
+                                <h4 id="effect_element1">carbon dioxide</h4>
+                                <div class="card__elements">
+                                    <div class="card__stats">
+                                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                                        <span class="total__number">419</span>
+                                    </div>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </div>

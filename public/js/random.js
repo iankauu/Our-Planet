@@ -6,5 +6,5 @@ function randomColor() {
     return c;
 }
 
-var a = document.getElementById("effect_element1").style;
+var a = document.getElementById("effect_element3").style;
 a.color = randomColor();
