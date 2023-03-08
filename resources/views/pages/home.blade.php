@@ -137,12 +137,16 @@
                 <div class="climate__singleCard">
                     <a href="">
                         <div class="card">
+                            <h2>evidence</h2>
+                            <p>how do we know <br> climate change is real?<p>
                         </div>
                     </a>
                 </div>
                 <div class="climate__singleCard">
                     <a href="">
                         <div class="card">
+                            <h2>evidence</h2>
+                            <p>how do we know <br> climate change is real?<p>
                         </div>
                     </a>
                 </div>
