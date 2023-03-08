@@ -135,6 +135,12 @@
     border: none;
     background: transparent;
 }
+.news__container .news__cards .card img {
+    object-fit: cover;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
 .news__cards .card-title {
     color: rgba(245, 245, 245, 0.8) !important;
     text-transform: uppercase;
@@ -147,6 +153,15 @@
 .news__cards .card-body p {
     color: #fff;
 }
-.news__cards a:hover{
+.news__cards a:hover {
     text-decoration: none;
+}
+.news__cards a:hover img {
+    text-decoration: none;
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
