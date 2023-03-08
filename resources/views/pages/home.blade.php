@@ -134,23 +134,17 @@
         </div>
         <div class="climate__elements">
             <div class="climate__cards">
-                <div class="row">
-                    <div class="col-md-6 nopadding">
-                        <div class="card" style="background-image: url('images/climate.png')">
+                <div class="climate__singleCard">
+                    <a href="">
+                        <div class="card">
                         </div>
-                    </div>
-                    <div class="col-md-6 nopadding">
-                        <div class="card" style="background-image: url('images/climate.png')">
+                    </a>
+                </div>
+                <div class="climate__singleCard">
+                    <a href="">
+                        <div class="card">
                         </div>
-                    </div>
-                    <div class="col-md-6 nopadding">
-                        <div class="card" style="background-image: url('images/climate.png')">
-                        </div>
-                    </div>
-                    <div class="col-md-6 nopadding">
-                        <div class="card" style="background-image: url('images/climate.png')">
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
