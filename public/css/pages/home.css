@@ -8,6 +8,16 @@
     object-fit: cover;
     margin: 0 auto;
 }
+.slider__container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background: linear-gradient(to bottom, #000, transparent);
+}
 .slider__container::after {
     content: "";
     position: absolute;
@@ -16,7 +26,7 @@
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    background: linear-gradient(to top, #171717, transparent);
+    background: linear-gradient(to top, #000, transparent);
 }
 .effect__container {
     width: 100%;

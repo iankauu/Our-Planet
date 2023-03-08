@@ -35,7 +35,7 @@
     object-fit: cover;
 }
 .navbar.black {
-    background-color: #171717;
+    background-color: #000;
     transition: 0.8s ease-in-out;
 }
 .main-nav {
