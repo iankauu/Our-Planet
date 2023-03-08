@@ -1,5 +1,5 @@
 .slider__container {
-    border: 1px solid red;
+    border: none;
     max-width: 100vw;
     width: 100vw;
     margin-top: 6rem;
@@ -37,7 +37,7 @@
 .effect__container {
     max-width: 90%;
     width: 90%;
-    border: 1px solid green;
+    border: none;
     margin: 0 auto;
 }
 .effect__elements {
@@ -67,10 +67,6 @@
     border-bottom: none;
     margin-bottom: 1.5rem;
 }
-.effect__container .card:hover {
-    border-top-width: red 1px solid;
-    cursor: pointer;
-}
 .effect__container .card-body {
     padding-left: 0 !important;
 }
@@ -80,14 +76,6 @@
     font-weight: bolder;
     color: white;
     text-transform: capitalize;
-}
-.effect__container .card:after {
-    display: block;
-    content: "";
-    border-top: grey 1px solid;
-    transform: scaleX(0);
-    transform-origin: 0% 50%;
-    transition: transform 250ms ease-in-out;
 }
 .effect__container .card i {
     font-size: 42px !important;
@@ -103,20 +91,20 @@
 .news__container {
     margin-top: 6rem;
     margin-bottom: 6rem;
-    border: 1px solid blue;
+    border: none;
     width: 100vw;
 }
 .news__container .news__cards {
     max-width: 100%;
     width: 100%;
-    border: 1px solid purple;
+    border: none;
     margin: 0 auto;
     margin-top: 1.5rem;
 }
 .news__container .news__collection {
     max-width: 90%;
     width: 90%;
-    border: 1px solid white;
+    border: none;
     margin: 0 auto;
 }
 .news__container .header {
@@ -179,7 +167,7 @@
     transition: all 0.5s ease;
 }
 .climate__container {
-    border: 1px solid pink;
+    border: none;
     max-width: 100vw;
     width: 100vw;
     margin-bottom: 2rem;
@@ -200,7 +188,7 @@
     color: white;
 }
 .climate__container .climate__elements {
-    border: 1px solid brown;
+    border: none;
     max-width: 100%;
     width: 100%;
     margin-top: 2rem;
@@ -218,18 +206,19 @@
     width: auto;
     height: 500px;
     border-radius: 0%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
         url("../../images/climate.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    border: 3px solid blue;
+    border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 8px;
     text-align: center;
+    position: relative;
 }
 .climate__container .card h2 {
     font-size: 19px;
@@ -242,6 +231,26 @@
     font-weight: bolder;
     color: #fff;
     text-transform: capitalize;
+}
+.climate__container .card .extra__content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.climate__container .card:hover .extra__content {
+    width: 50%;
+    visibility: visible;
+    opacity: 0.7;
+}
+.climate__container .card:hover .card__info {
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 .climate__container .climate__cards .climate__singleCard a:hover {
