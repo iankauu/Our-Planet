@@ -3,17 +3,25 @@
     top: 0;
     left: 0;
     width: 100vw;
+    height: 100vh;
     z-index: -1;
     object-fit: cover;
     margin: 0 auto;
 }
 .slider__container::after {
-    background-image: linear-gradient(to bottom right, red, yellow);
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background: linear-gradient(to top, #171717, transparent);
 }
 .effect__container {
     width: 100%;
     margin-top: 6rem;
-    margin-bottom: 13rem;
+    
 }
 .effect__elements {
     display: inline-grid;
@@ -82,6 +90,7 @@
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
+
 .news__container .header {
     display: flex;
     flex-direction: row;
@@ -101,3 +110,5 @@
 .news__container .header a:hover {
     font-weight: bold;
 }
+
+
