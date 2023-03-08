@@ -9,7 +9,7 @@
     <div class="loader_bg">
         <div class="loader"></div>
     </div>
-    <div class="container-fluid" style="margin: 0; padding: 0;">
+    <div style="margin: 0; padding: 0;">
         @include('includes.header')
         @yield('content')
         @include('includes.footer')
