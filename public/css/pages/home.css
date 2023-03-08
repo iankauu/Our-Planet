@@ -196,7 +196,7 @@
 .climate__container .climate__cards {
     max-width: 100%;
     width: 100%;
-    border: 1px solid yellow;
+    border: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -232,27 +232,6 @@
     color: #fff;
     text-transform: capitalize;
 }
-.climate__container .card .extra__content {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear; 
-    transition: visibility 0s, opacity 0.5s linear;
-}
-.climate__container .card:hover .extra__content {
-    width: 50%;
-    visibility: visible;
-    opacity: 0.7;
-}
-.climate__container .card:hover .card__info {
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear; 
-    transition: visibility 0s, opacity 0.5s linear;
-}
-
 .climate__container .climate__cards .climate__singleCard a:hover {
     text-decoration: none;
 }

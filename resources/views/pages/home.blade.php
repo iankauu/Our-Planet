@@ -141,9 +141,6 @@
                                 <h2>evidence</h2>
                                 <p>how do we know <br> climate change is real?<p>
                             </div>
-                            <div class="extra__content">
-                                <p>Testing extra content</p>
-                            </div>
                         </div>
                     </a>
                 </div>
