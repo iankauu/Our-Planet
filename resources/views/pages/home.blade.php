@@ -1,6 +1,7 @@
 @extends('layouts.base')
 @section('content')
 <div class="home__container container-fluid">
+    <!-- slider section -->
     <div class="slider__container">
         <video src="{{ url('images/climate-change.m4v') }}" autoplay loop muted></video>
         <div class="effect__container">
@@ -113,6 +114,7 @@
             </div>
         </div>
     </div>
+    <!-- news section -->
     <div class="news__container">
         <div class="header">
             <h1>News Segment</h1>
@@ -176,6 +178,71 @@
             </div>
         </div>
     </div>
+    <!-- blogs section -->
+    <div class="blogs__container">
+        <div class="header">
+            <h1>Blog Segment</h1>
+            <a href="">See all</a>
+        </div>
+        <div class="blogs__cards">
+            <div class="blogs__collection">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="">
+                            <div class="card">
+                                <img src="{{ url('images/climate.png') }}" class="card-img-top"
+                                    alt="blog__image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of
+                                        the
+                                        card's
+                                        content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <div class="card">
+                                <img src="{{ url('images/climate.png') }}" class="card-img-top"
+                                    alt="blog__image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of
+                                        the
+                                        card's
+                                        content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <div class="card">
+                                <img src="{{ url('images/climate.png') }}" class="card-img-top"
+                                    alt="blog__image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of
+                                        the
+                                        card's
+                                        content.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- climate section -->
     <div class="climate__container">
         <div class="header">
             <h1>What Is Climate Change?</h1>
