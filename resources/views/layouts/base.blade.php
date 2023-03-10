@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @include('includes.head')
+    @include('includes._head')
 </head>
 
 <body>
@@ -10,9 +10,9 @@
         <div class="loader"></div>
     </div>
     <div style="margin: 0; padding: 0;">
-        @include('includes.header')
+        @include('includes._header')
         @yield('content')
-        @include('includes.footer')
+        @include('includes._footer')
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
