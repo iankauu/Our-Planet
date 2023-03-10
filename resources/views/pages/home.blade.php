@@ -2,6 +2,7 @@
 @section('stylesheets')
 <link rel="stylesheet" type="text/css" href="{{ url('css/pages/home.css') }}">
 @endsection
+@section('title', 'Home - All about Climate Change')
 @section('content')
 <div class="home__container container-fluid">
     <!-- slider section -->
