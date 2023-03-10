@@ -9,6 +9,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card" data-toggle="modal" data-target="#climateElements">
+                            <span id="border__line"></span>
                             <div class="card-body">
                                 <h4 id="effect_element1">carbon dioxide</h4>
                                 <div class="card__elements">
@@ -23,6 +24,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card">
+                            <span id="border__line"></span>
                             <div class="card-body">
                                 <h4 id="effect_element1">carbon dioxide</h4>
                                 <div class="card__elements">
