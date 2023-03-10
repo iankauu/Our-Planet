@@ -379,8 +379,8 @@
 }
 .modal-header {
     background-color: #252525;
-    border: none;
-    outline: none;
+    border: none !important;
+    outline: none !important;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -400,8 +400,8 @@
 }
 .modal-footer {
     background-color: #252525;
-    border: none;
-    outline: none;
+    border: none !important;
+    outline: none !important;
 }
 /* slider container cards css */
 .effect__container .border__lineTop {
