@@ -1,4 +1,7 @@
 @extends('layouts.base')
+@section('stylesheets')
+<link rel="stylesheet" type="text/css" href="{{ url('css/pages/home.css') }}">
+@endsection
 @section('content')
 <div class="home__container container-fluid">
     <!-- slider section -->

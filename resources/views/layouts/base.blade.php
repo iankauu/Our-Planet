@@ -37,6 +37,7 @@
 
     <script type="text/javascript" src="{{url('js/header.js')}}"></script>
     <script type="text/javascript" src="{{url('js/random.js')}}"></script>
+    @yield('scripts')
 </body>
 
 </html>
