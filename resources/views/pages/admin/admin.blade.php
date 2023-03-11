@@ -1,5 +1,5 @@
 @section('stylesheets')
-<link rel="stylesheet" type="text/css" href="{{ url('css/pages/admin/admin.css') }}">
+@include('includes._adminStyleSheetLinks')
 @endsection
 @section('title', 'Admin')
 @section('content')
@@ -435,4 +435,7 @@
         <!-- /. PAGE INNER  -->
     </div>
 </div>
+@endsection
+@section('scripts')
+@include('')
 @endsection
