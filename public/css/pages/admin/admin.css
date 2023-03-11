@@ -1,0 +1,22 @@
+.admin__container {
+    border: 1px solid red;
+    width: 100vw;
+    margin-top: 6rem;
+}
+.admin__container .admin__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.admin__container .sidebar__container {
+    border: 1px solid orange;
+    flex: 1;
+    max-width: 100%;
+    width: 100%;
+}
+.admin__container .content__container {
+    border: 1px solid purple;
+    flex: 3;
+    max-width: 100%;
+    width: 100%;
+}
