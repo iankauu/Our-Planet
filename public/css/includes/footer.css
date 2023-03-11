@@ -1,0 +1,13 @@
+.footer {
+    width: 100vw;
+    height: 5rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
