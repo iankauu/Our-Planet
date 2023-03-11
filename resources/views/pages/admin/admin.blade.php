@@ -1,6 +1,4 @@
-@section('stylesheets')
-@include('includes._adminStyleSheetLinks')
-@endsection
+@extends('layouts.adminBase')
 @section('title', 'Admin')
 @section('content')
 <div id="wrapper">
@@ -436,6 +434,5 @@
     </div>
 </div>
 @endsection
-@section('scripts')
-@include('includes._adminJavascriptLinks')
-@endsection
+
+
