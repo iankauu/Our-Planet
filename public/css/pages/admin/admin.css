@@ -2,21 +2,47 @@
     border: 1px solid red;
     width: 100vw;
     margin-top: 6rem;
+    position: relative;
 }
 .admin__container .admin__content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: auto;
+    position: relative;
+    overflow: auto;
+    z-index: 1;
+    background-color: #171717;
+    margin-left: 407px;
 }
+
 .admin__container .sidebar__container {
     border: 1px solid orange;
-    flex: 1;
-    max-width: 100%;
-    width: 100%;
+    max-width: 400px;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #000;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
 }
 .admin__container .content__container {
     border: 1px solid purple;
-    flex: 3;
     max-width: 100%;
     width: 100%;
+    position: relative;
+}
+.admin__container .sidebar__items .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
 }
