@@ -2,8 +2,6 @@
 @section('title', 'Admin')
 @section('content')
 <div id="wrapper">
-    @include('includes._adminHeader')
-    @include('includes._adminSideBar')
     <div id="page-wrapper">
         <div id="page-inner">
             <div class="row">

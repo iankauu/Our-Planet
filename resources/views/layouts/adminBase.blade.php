@@ -12,6 +12,7 @@
     </div>
     <div>
         @include('includes._adminHeader')
+        @include('includes._adminSideBar')
         @yield('content')
         @include('includes._footer')
     </div>
