@@ -437,5 +437,5 @@
 </div>
 @endsection
 @section('scripts')
-@include('')
+@include('includes._adminJavascriptLinks')
 @endsection
