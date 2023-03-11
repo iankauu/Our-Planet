@@ -5,13 +5,7 @@
                 <img src="images/find_user.png" class="user-image img-responsive" />
             </li>
             <li>
-                <a class="active-menu" href="/">
-                    <i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i>
-                    Back to Site
-                </a>
-            </li>
-            <li>
-                <a href="">
+                <a class="active-menu" href="">
                     <i class="fa fa-tachometer fa-3x" aria-hidden="true"></i>
                     Dashboard
                 </a>
@@ -71,6 +65,12 @@
                 <a href="">
                     <i class="fa fa-users fa-3x" aria-hidden="true"></i>
                     View all users
+                </a>
+            </li>
+            <li>
+                <a href="/">
+                    <i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i>
+                    Back to Site
                 </a>
             </li>
         </ul>
