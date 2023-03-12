@@ -5,5 +5,6 @@
 <link href="{{ url('css/admin/font-awesome.css') }}" rel="stylesheet" />
 <link href="{{ url('js/admin/morris/morris-0.4.3.min.css') }}" rel="stylesheet" />
 <link href="{{ url('css/admin/custom.css') }}" rel="stylesheet" />
+<link href="{{ url('css/admin/createNews.css') }}" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="{{ url('css/includes/footer.css') }}">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />

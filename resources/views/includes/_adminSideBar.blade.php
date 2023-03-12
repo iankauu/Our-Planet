@@ -42,7 +42,7 @@
             </li>
             <li>
                 <a href="#">
-                    <i class="fa fa-newspaper-o fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
                     Climate section
                     <span class="fa arrow"></span>
                 </a>
